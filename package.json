@@ -1,0 +1,23 @@
+{
+  "name": "frontend-hero",
+  "description": "Frontend Hero Game",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimakovalevskyi/frontend-hero.git"
+  },
+  "author": "Dmytro Kovalevskyi",
+  "license": "MIT",
+  "homepage": "https://github.com/dimakovalevskyi/frontend-hero#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
