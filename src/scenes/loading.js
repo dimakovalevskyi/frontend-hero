@@ -7,8 +7,8 @@ export class LoadingScene extends Scene {
     }
 
     render(time) {
-        super.render(time);
         this.game.screen.fill('#333333');
+        super.render(time);
     }
 
 }
