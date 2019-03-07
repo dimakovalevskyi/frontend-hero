@@ -1,3 +1,5 @@
 import { Game } from './game';
 
-new Game();
+let game = new Game();
+
+game.run();
