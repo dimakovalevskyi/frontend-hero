@@ -3,12 +3,11 @@ import { Scene } from '../scene';
 export class LoadingScene extends Scene {
     constructor(game) {
         super(game);
-        this.nextScene = 'menu';
     }
 
     render(time) {
-        this.game.screen.fill('#333333');
         super.render(time);
+        this.screen.fill('#333333');
+        this.screen.print(50, 50, '#dddddd', 'Loading...');
     }
-
 }
